@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sociall - A Secure And Private Decentralised Social Network For All</title>
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><!--<base href="/">-->
+
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <meta name="description" content="Sociall is a secure and private decentralised social network for all that utilises its native cryptocurrency, SCL.">
+
+    <meta property="og:title" content="Sociall - A Secure And Private Decentralised Social Network For All" />
+    <meta property="og:description" content="Sociall is a secure and private decentralised social network for all that utilises its native cryptocurrency, SCL." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sociall.io" />
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body id="signup" class="flow-signup">
+	<main class="container-fluid full-height-vh">
+		<div class="row vh">
+			<div class="col-md-12 col-lg-5 p-0">
+				<div class="onboarding centered d-flex flex-column justify-content-center text-center">
+                    <div class="hidden-lg hidden-md" style="margin-bottom: 100px;">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 767.44 128.99"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#4886ff;}.cls-3{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="671.72" y1="393.48" x2="672.64" y2="394.06" gradientTransform="matrix(219.23, 0, 0, -133, -146989.24, 52759.04)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4784ff"/><stop offset="1" stop-color="#52a2ff"/></linearGradient></defs><title>light-hor</title><g id="social."><path id="Fill-7" class="cls-1" d="M573,448.35c18,0,31.22-10.43,31.22-27.33,0-11.33-4.52-17.62-11.55-22.12-6.14-4-11.91-5.4-18.23-7.91-4.51-1.8-8.66-4-8.66-8.45q0-5.4,5.41-5.4A9.87,9.87,0,0,1,580,382c2.16,3.6,4.87,6.84,10.46,6.84s10.29-3.24,10.29-9.71a14.83,14.83,0,0,0-4-10.07c-5.42-6.3-13.36-9.35-23.82-9.35-13.36,0-28.51,6.83-28.51,24.27,0,10.79,5.23,18.35,13.71,22.84,7,3.6,13.9,5.76,20.21,9.35,2.35,1.44,4.15,3.24,4.15,6.29q0,6.48-8.12,6.48c-6.49,0-10.1-3.6-11.55-6.3-2.88-5.75-7.22-7.37-11-7.37-6.32,0-10.47,4.68-10.47,11.15a13.75,13.75,0,0,0,2.53,8.27c5,8.45,14.61,13.67,29,13.67" transform="translate(-273.96 -319.36)"/><path id="Fill-9" class="cls-1" d="M656.63,381.86a21.24,21.24,0,1,1-21.06,21.24,21.43,21.43,0,0,1,21.06-21.24m.83,66.49A44.47,44.47,0,0,0,702.06,404c0-25.07-20-44.32-44.6-44.32S613.41,379,613.41,404a44,44,0,0,0,44.05,44.33" transform="translate(-273.96 -319.36)"/><path id="Fill-11" class="cls-1" d="M755.45,448.35c13.18,0,24.37-4.54,30.87-11.63,3.43-3.81,4.51-6.9,4.51-9.62,0-6-4.15-11.27-10.11-11.27a13.28,13.28,0,0,0-9.39,4.18c-3.06,3.27-8.3,5.45-14.62,5.45-13.53,0-22.38-9.63-22.38-21.44,0-12.53,8.85-21.43,22-21.43a19.64,19.64,0,0,1,12.1,3.81c3.25,2.54,6.31,3.64,9.2,3.64,6.68,0,11.19-4.55,11.19-10.18,0-5.27-2.34-9.45-7.4-12.9-5.77-4-13.35-7.26-26-7.26-24.73,0-44,19.25-44,44.32,0,24.71,19.31,44.33,44,44.33" transform="translate(-273.96 -319.36)"/><path id="Fill-3" class="cls-1" d="M816.16,362.94c7.39,0,11.26,3.95,11.26,12.22v61.07c0,7.9-3.52,11.67-11.08,11.67s-11.08-3.77-11.08-11.67V375.16C805.26,366.89,808.78,362.94,816.16,362.94Zm.44-7.39c-8,0-13.19-4.75-13.19-13.19,0-7.21,5.17-12.66,13.19-12.66,5.89,0,12.67,5.45,12.67,12.66A12.89,12.89,0,0,1,816.6,355.55Z" transform="translate(-273.96 -319.36)"/><path id="Fill-1" class="cls-1" d="M882,381.86c11.28,0,19.39,9.72,19.39,21.24,0,12.06-8.11,21.24-19.39,21.24s-19.4-9.18-19.4-21.24c0-11.52,8.11-21.24,19.4-21.24m-2.5,66.49c10.62,0,20.52-4.72,23.94-10,1.62,6.18,5,9.26,10.44,9.26,7.74,0,11.52-4.17,11.52-12.53V373c0-7.81-3.78-11.63-11.16-11.63-5.76,0-9,2.91-10.26,8.54-4.14-7.09-13.68-10.17-24.48-10.17-24.12,0-39.06,19.07-39.06,44.32,0,24.71,15.12,44.33,39.06,44.33" transform="translate(-273.96 -319.36)"/><path id="Fill-5" class="cls-1" d="M990.4,448.14c7.33,0,11.17-3.81,11.17-11.79V333c0-8.33-3.84-12.32-11.34-12.32-7,0-10.82,4-10.82,12.32V436.35c0,8,3.66,11.79,11,11.79" transform="translate(-273.96 -319.36)"/><path id="Fill-15" class="cls-2" d="M1028,447.7a13.2,13.2,0,0,0,13.41-13.34c0-8.16-6-13.66-13.41-13.66-7.91,0-13.59,5.5-13.59,13.66,0,7.67,5.68,13.34,13.59,13.34" transform="translate(-273.96 -319.36)"/><path id="Fill-5-2" data-name="Fill-5" class="cls-1" d="M951.4,448.14c7.33,0,11.17-3.81,11.17-11.79V333c0-8.33-3.84-12.32-11.34-12.32-7,0-10.82,4-10.82,12.32V436.35c0,8,3.66,11.79,11,11.79" transform="translate(-273.96 -319.36)"/></g><path id="Fill-1-2" data-name="Fill-1" class="cls-3" d="M394.35,354.18H369.21a10.16,10.16,0,1,0,0,20.31h25.14a26.6,26.6,0,0,1,0,53.2h-73a26.35,26.35,0,0,1-9.62-50.95h0l.71-.25a45.79,45.79,0,0,1,7-1.71,47.15,47.15,0,0,0,46.37,38.41H391a10.16,10.16,0,1,0,0-20.31H365.84a26.6,26.6,0,0,1,0-53.2h73a26.35,26.35,0,0,1,9.89,50.83,52.58,52.58,0,0,1-8,2.12,47.15,47.15,0,0,0-46.37-38.44M486,366.27a47.1,47.1,0,0,0-47.16-46.91h-73a47.19,47.19,0,0,0-45.53,34.69,72.54,72.54,0,0,0-8.2,1.08h0a39.23,39.23,0,0,0-4,1c-.1,0-.42.06-.53.1s.48,0-.49.08h0A47.26,47.26,0,0,0,274,401.09C274,427,295.34,448,321.35,448h73a47.2,47.2,0,0,0,45.44-34.38,75.78,75.78,0,0,0,12.33-2.39,47.2,47.2,0,0,0,33.88-45" transform="translate(-273.96 -319.36)"/></svg>
+                    </div>
+
+                    <h4 id="beta-heading-text" style="margin-bottom:20px; font-size:14px;">The Sociall closed beta is launching soon.</h4>
+                    
+                    <a class="btn btn-primary" style="color: #fff;" href="https://goo.gl/forms/BJcAHGrJ4DXLMTKD2" target="_blank">
+                        Join the closed beta
+                    </a>
+
+                    <hr />
+
+                    <div class="column_attr align_center">
+                        <a title="Facebook" href="https://www.facebook.com/sociall.io/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a title="Instagram" href="https://www.instagram.com/sociall.io/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a title="Twitter" href="https://twitter.com/sociall_io" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a title="YouTube" href="https://www.youtube.com/channel/UCoSx37iRR5KZ2TgMSzgk_mg" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a title="Reddit" href="https://www.reddit.com/r/sociall/" target="_blank"><i class="fa fa-reddit"></i></a>
+                        <a title="Telegram" href="https://t.me/sociall_io" target="_blank"><i class="fa fa-telegram"></i></a>
+                        <a title="Medium" href="https://medium.com/@sociall.io/" target="_blank"><i class="fa fa-medium"></i></a>
+                        <a title="BitcoinTalk" href="https://bitcointalk.org/index.php?topic=2100970" target="_blank"><i class="fa fa-bitcoin"></i></a>
+                        <a title="Email" href="mailto:info@sociall.io" target="_blank"><i class="fa fa-envelope"></i></a>
+					</div>
+
+					<div id="mobile-bg" class="hidden-lg hidden-md"></div>
+					<div id="mobile-bg-overlay" class="hidden-lg hidden-md"></div>
+				</div>
+
+				<div id="extra-links-holder">
+					<div id="extra-links">
+						<a href="https://etherscan.io/token/0xd7631787b4dcc87b1254cfd1e5ce48e96823dee8" target="_blank">Token on Etherscan</a>
+						<a href="https://coinmarketcap.com/currencies/sociall/" target="_blank">Prices on CoinMarketCap</a>						
+					</div>
+				</div>
+			</div>
+			<div class="hidden-md-down col-md-6 col-lg-7">
+				<div class="full-media-container">
+					<div class="logo-brand">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 width="219.227px" height="133px" viewBox="611 368 219.227 133" enable-background="new 611 368 219.227 133"
+							 xml:space="preserve">
+						<path id="Fill-1" fill="#ffffff" d="M735.464,404h-25.99c-5.896,0-10.679,4.592-10.679,10.5s4.781,10.5,10.679,10.5h25.99
+							c15.111,0,27.404,12.556,27.404,27.5S750.575,480,735.464,480h-75.475c-15.111,0-27.404-12.357-27.404-27.302
+							c0-11.185,7.108-21.279,17.456-25.371c0.014-0.005,0.027-0.01,0.042-0.018c0.239-0.094,0.49-0.163,0.734-0.253
+							c1.344-0.447,4.01-1.25,7.227-1.77c4.171,22.56,24.075,39.712,47.945,39.712h25.991c5.896,0,10.678-4.592,10.678-10.5
+							S737.877,444,731.98,444h-25.991c-15.111,0-27.404-12.556-27.404-27.5s12.293-27.5,27.404-27.5h75.475
+							c15.111,0,27.404,12.357,27.404,27.302c0,11.078-6.981,21.079-17.172,25.245c-0.747,0.271-4.139,1.45-8.282,2.19
+							C779.253,421.165,759.342,404,735.464,404 M830.227,416.5c0-26.743-21.875-48.5-48.763-48.5h-75.475
+							c-22.492,0-41.466,15.229-47.072,35.861c-1.905,0.147-5.184,0.473-8.474,1.116c-0.006,0.003-0.011,0.003-0.015,0.004
+							c-0.012,0.003-0.022,0.006-0.036,0.009c-1.408,0.275-2.812,0.616-4.109,1.021c-0.106,0.032-0.438,0.068-0.545,0.102
+							c-0.094,0.029,0.487,0.059-0.513,0.09v0.002C625.227,412.464,611,431.21,611,452.5c0,26.742,22.102,48.5,48.989,48.5h75.475
+							c22.379,0,41.272-15.078,46.983-35.551c3.276-0.396,8.761-1.192,12.747-2.469C815.73,456.904,830.227,437.994,830.227,416.5"/>
+						</svg>
+					</div>
+					<div class="intro-content">
+						<h1 style="width: 22rem; height: auto; margin-bottom: 4rem; fill: #fff;">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 127.65"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#4886ff;}</style></defs><title>sociall</title><g id="social."><path id="Fill-7" class="cls-1" d="M485,448.35c18,0,31.22-10.43,31.22-27.33,0-11.33-4.52-17.62-11.55-22.12-6.14-4-11.91-5.4-18.23-7.91-4.51-1.8-8.66-4-8.66-8.45q0-5.4,5.41-5.4A9.87,9.87,0,0,1,492,382c2.16,3.6,4.87,6.84,10.46,6.84s10.29-3.24,10.29-9.71a14.83,14.83,0,0,0-4-10.07c-5.42-6.3-13.36-9.35-23.82-9.35-13.36,0-28.51,6.83-28.51,24.27,0,10.79,5.23,18.35,13.71,22.84,7,3.6,13.9,5.76,20.21,9.35,2.35,1.44,4.15,3.24,4.15,6.29q0,6.48-8.12,6.48c-6.49,0-10.1-3.6-11.55-6.3-2.88-5.75-7.22-7.37-11-7.37-6.32,0-10.47,4.68-10.47,11.15a13.75,13.75,0,0,0,2.53,8.27c5.05,8.45,14.61,13.67,29.05,13.67" transform="translate(-453.41 -320.7)"/><path id="Fill-9" class="cls-1" d="M568.63,381.86a21.24,21.24,0,1,1-21.06,21.24,21.43,21.43,0,0,1,21.06-21.24m.83,66.49A44.47,44.47,0,0,0,614.06,404c0-25.07-20-44.32-44.6-44.32S525.41,379,525.41,404a44,44,0,0,0,44.05,44.33" transform="translate(-453.41 -320.7)"/><path id="Fill-11" class="cls-1" d="M667.45,448.35c13.18,0,24.37-4.54,30.87-11.63,3.43-3.81,4.51-6.9,4.51-9.62,0-6-4.15-11.27-10.11-11.27a13.28,13.28,0,0,0-9.39,4.18c-3.06,3.27-8.3,5.45-14.62,5.45-13.53,0-22.38-9.63-22.38-21.44,0-12.53,8.85-21.43,22-21.43a19.64,19.64,0,0,1,12.1,3.81c3.25,2.54,6.31,3.64,9.2,3.64,6.68,0,11.19-4.55,11.19-10.18,0-5.27-2.34-9.45-7.4-12.9-5.77-4-13.35-7.26-26-7.26-24.73,0-44,19.25-44,44.32,0,24.71,19.31,44.33,44,44.33" transform="translate(-453.41 -320.7)"/><path id="Fill-3" class="cls-1" d="M728.16,362.94c7.39,0,11.26,3.95,11.26,12.22v61.07c0,7.9-3.52,11.67-11.08,11.67s-11.08-3.77-11.08-11.67V375.16C717.26,366.89,720.78,362.94,728.16,362.94Zm.44-7.39c-8,0-13.19-4.75-13.19-13.19,0-7.21,5.17-12.66,13.19-12.66,5.89,0,12.67,5.45,12.67,12.66A12.89,12.89,0,0,1,728.6,355.55Z" transform="translate(-453.41 -320.7)"/><path id="Fill-1" class="cls-1" d="M794,381.86c11.28,0,19.39,9.72,19.39,21.24,0,12.06-8.11,21.24-19.39,21.24s-19.4-9.18-19.4-21.24c0-11.52,8.11-21.24,19.4-21.24m-2.5,66.49c10.62,0,20.52-4.72,23.94-10,1.62,6.18,5,9.26,10.44,9.26,7.74,0,11.52-4.17,11.52-12.53V373c0-7.81-3.78-11.63-11.16-11.63-5.76,0-9,2.91-10.26,8.54-4.14-7.09-13.68-10.17-24.48-10.17-24.12,0-39.06,19.07-39.06,44.32,0,24.71,15.12,44.33,39.06,44.33" transform="translate(-453.41 -320.7)"/><path id="Fill-5" class="cls-1" d="M902.4,448.14c7.33,0,11.17-3.81,11.17-11.79V333c0-8.33-3.84-12.32-11.34-12.32-7,0-10.82,4-10.82,12.32V436.35c0,8,3.66,11.79,11,11.79" transform="translate(-453.41 -320.7)"/><path id="Fill-15" class="cls-2" d="M940,447.7a13.2,13.2,0,0,0,13.41-13.34c0-8.16-6-13.66-13.41-13.66-7.91,0-13.59,5.5-13.59,13.66,0,7.67,5.68,13.34,13.59,13.34" transform="translate(-453.41 -320.7)"/><path id="Fill-5-2" data-name="Fill-5" class="cls-1" d="M863.4,448.14c7.33,0,11.17-3.81,11.17-11.79V333c0-8.33-3.84-12.32-11.34-12.32-7,0-10.82,4-10.82,12.32V436.35c0,8,3.66,11.79,11,11.79" transform="translate(-453.41 -320.7)"/></g></svg>
+                        </h1>
+						<p class="lead">sociall is a secure and private decentralised social network for all</p>
+						<div class="d-flex profile-photos">
+							<img src="https://randomuser.me/api/portraits/men/62.jpg">
+							<img src="https://randomuser.me/api/portraits/women/8.jpg">
+							<img src="https://randomuser.me/api/portraits/women/79.jpg">
+							<img src="https://randomuser.me/api/portraits/men/58.jpg">
+							<img src="https://randomuser.me/api/portraits/women/62.jpg">
+							<img src="https://randomuser.me/api/portraits/men/22.jpg">
+						</div>
+                    </div>
+                    <div id="video-overlay"></div>
+					<video class="video" poster="media/video-still.png" loop="" muted="" autoplay="" playsinline="" preload="auto" role="presentation" tabindex="-1" aria-hidden="true">
+						<source src="media/video.mp4" type="video/mp4">
+						<source src="media/video.webm" type="video/webm">
+					</video>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<!--<div class="modal fade video-modal" id="introModal" tabindex="-1" role="dialog" aria-labelledby="introModal" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Video Title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/mHUOCxVT5ro" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    
+	<script src="youtubebg.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

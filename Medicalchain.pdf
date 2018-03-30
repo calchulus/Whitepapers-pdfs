@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="https://s3.amazonaws.com/centra-public/content/uploads/2017/11/08112934/coin.png" type="image/png" sizes="16x16"><title>Page not found &#8211; Centra Tech</title>
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Centra Tech &raquo; Feed" href="https://centra.tech/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Centra Tech &raquo; Comments Feed" href="https://centra.tech/comments/feed/" />
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/centra.tech\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ctuc-swal2-style-css' href='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.4/sweetalert2.min.css?ver=1520185254' type='text/css' media='all' />
+<link rel='stylesheet' id='ctuc-common-style-css' href='https://centra.tech/content/plugins/centrauser/assets/css/common.css?ver=1520185254' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://centra.tech/content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='gglcptch-css' href='https://centra.tech/content/plugins/google-captcha/css/gglcptch.css?ver=1.32' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://centra.tech/content/plugins/slider-revolution-responsive-wordpress-plugin/public/assets/css/settings.css?ver=5.2.5.4' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.main-top-banner{font-size:40px;  font-weight:bold; color:#000000; line-height:1.5}.in_the_press{filter:grayscale(100%)}.img-circle{width:150px; height:150px}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://centra.tech/content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://centra.tech/content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.2.1' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://centra.tech/content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tt-easy-google-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100&#038;subset=latin%2Call&#038;ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='threed-theme-style-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto+Condensed%3A400%2C300%2C700%7CRoboto%3A400%2C100%2C300%2C500%2C700%2C900' type='text/css' media='all' />
+<link rel='stylesheet' id='threed-style-css' href='https://centra.tech/content/themes/threed-child/style.css?ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='vendor-css-css' href='https://centra.tech/content/themes/threed/css/vendor.css?ver=v1' type='text/css' media='all' />
+<link rel='stylesheet' id='threed-main-css-css' href='https://centra.tech/content/themes/threed/css/threed-main.css?ver=v1' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-css-css' href='https://centra.tech/content/themes/threed/css/owl.carousel.css?ver=v1' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-themes-css-css' href='https://centra.tech/content/themes/threed/css/owl.theme.css?ver=v1' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://centra.tech/content/plugins/tablepress/css/default.min.css?ver=1.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-Defaults-css' href='https://centra.tech/content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.8.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://centra.tech/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://centra.tech/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/slider-revolution-responsive-wordpress-plugin/public/assets/js/jquery.themepunch.tools.min.js?ver=5.2.5.4'></script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/slider-revolution-responsive-wordpress-plugin/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.5.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/centra.tech\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/centra.tech\/?page_id=6","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/js-composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://centra.tech/content/themes/threed/js/jquery.validate.min.js?ver=4.8.3'></script>
+<link rel='https://api.w.org/' href='https://centra.tech/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://centra.tech/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://centra.tech/wp/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.8.3" />
+<meta name="generator" content="WooCommerce 3.2.1" />
+<style type="text/css" id="threed-internal-css"> /*#header{
+margin: 0 auto;
+}*/
+.vc_custom_1464785527777{
+    background-attachment: fixed;
+}  </style>  <script> jQuery(function($) {
+    $('body').on('click', '#main-menu a', function(e) {
+       if ($(this).parent().find('.sub-menu').length > 0) {
+           e.preventDefault();
+           
+           var submenu = $(this).next();
+           
+           if (submenu.hasClass('open-sub-menu')) {
+               submenu.removeClass('open-sub-menu');
+           } else {
+               submenu.addClass('open-sub-menu');
+           }
+       }
+    });
+   
+    $('#birthdate').mask('00/00/0000', {
+       clearIfNotMatch: true
+    });
+   
+    $('body').on('click', '#viewETH', function(e) {
+        $('input[name=eth-address]').clone().attr('type','text').insertAfter('input[name=eth-address]').prev().remove();
+        var x = document.getElementById("ViewPass");
+        x.style.display = "none";
+    });
+   
+    $('input[name=eth-address]').clone().attr('type','password').insertAfter('input[name=eth-address]').prev().remove();
+   
+    $('input[name=password]').clone().attr('type','password').insertAfter('input[name=password]').prev().remove();
+
+    $("input[name='ETH']").change(function(){
+        var x = document.getElementById("ETHdiv");
+        if(x.style.display === "none")
+        {
+        x.style.display = "block";
+        }
+        else
+        {
+        x.style.display = "none";   
+        }
+    });
+   
+    if ($('form #country').length > 0) {
+       $.ajax({
+           url: '/wp/wp-admin/admin-ajax.php?action=cu_countries',
+           dataType: 'json',
+           beforeSend: function() {
+               $('form #country').html('<option value="" hidden>Loading countries</option>');
+           },
+           success: function(response) {
+               var options = '<option value="" hidden>Select your country</option>';
+               
+               $.each(response, function(i, el) {
+                    options += '<option value="' + el.code + '">' + el.name + '</option>';   
+               });
+
+               $('form #country').html(options);
+           }
+       });
+    }
+   
+    if ($('form #country').length > 0 && $('form #state').length > 0) {
+       $('body').on('change', 'form #country', function() {
+           $.ajax({
+           url: '/wp/wp-admin/admin-ajax.php?action=cu_regions',
+           method: 'post',
+           dataType: 'json',
+           data: 'code=' + $('form #country').val(),
+           beforeSend: function() {
+               $('form #state').html('<option value="" hidden>Loading states</option>');
+           },
+           success: function(response) {
+               var options = '<option value="" hidden>Select your state</option>';
+               
+               $.each(response, function(i, el) {
+                    options += '<option value="' + el.name + '">' + el.name + '</option>';   
+               });
+
+               $('form #state').html(options);
+           }
+       });
+       })
+    }
+    
+    $( '#wpcf7-f4315-p4312-o1' ).on( 'mailsent.wpcf7', function( e ) {
+        location = 'https://centra.tech/account-verification/#tier-upgrade';
+    } );
+    
+    if ($('#ctuc-wrapper').length > 0) {
+        var hash = location.hash.substr(1);
+
+        if (location.hash == '#tier-upgrade') {
+            $('a[href="#tier-upgrade"]').trigger('click');
+        }    
+    }
+    
+    if ($('.selected-dial-code').length > 0) {
+        $('.selected-dial-code').intlTelInput({
+                initialCountry: 'us',
+                preferredCountries: ['us', 'gb', 'kr'],
+                autoPlaceholder: 'aggressive',
+                autoHideDialCode: false,
+                utilsScript: 'https://centrawallet.com/assets/js/intl-tel-input/build/js/utils.js',
+                hiddenInput: "full_phone",
+                separateDialCode: true,
+
+            });
+    }
+    
+    //if($('.tandc').val() != "undefined" && $('.tandc').val() !== null){
+        if ($('.tandc').val() == "No") {
+           $('.selected-dial-code').prop( "disabled", true );
+        } else {
+            $('.selected-dial-code').prop( "disabled", false );
+        }
+    //}
+    
+    // $(window).on('wpcf7:invalid', function() {
+    // let's scroll
+    // });
+
+
+    // $('.wpcf7-form').ajaxComplete( function(){    
+    //   if($(this).hasClass('invalid') || $(this).hasClass('sent')){
+            // $('.forkit-curtain').animate({
+            //     scrollTop: $(".wpcf7-response-output").first().offset().top + 100
+            // }, 2000);
+    //         alert("this test is working");
+    //   }
+    // }); 
+
+
+
+});  </script>  <style type="text/css" id="page-banner-css"> .error404 .site-content{ background-image: url("https://s3.amazonaws.com/centra-public/content/uploads/2017/12/07145531/404-notfound-page-1.jpg") !important; width:100%; background-size:cover !important;background-repeat:no-repeat;background-position:center  !important; height:100vh; }  </style> <style type="text/css" id="threed-footer-bg-css"> .footer-area{ background-image:url("https://s3.amazonaws.com/centra-public/content/uploads/2017/12/26154445/footer-background-min.jpg")}  </style> <style type="text/css" id="threed-header-style-css">  </style> <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://centra.tech/content/plugins/js-composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.2.5.4 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style type="text/css" id="wp-custom-css">
+			.menu-item a {
+   color:#000000 !important;
+   font-weight: bold;
+}
+
+.menu_area .navbar-nav li {
+	padding: 10px;
+}
+
+#.menu_area .highlight-link {
+	background: #FDAD13;
+	padding: 0 15px !important;
+	margin-right:20px;
+}
+
+.menu_area .navbar-nav li {
+	padding:0 10px
+}
+
+.logo_area {
+	margin-top:5px
+}
+
+.menu_area .navbar-nav > li:not(.menu-cart) > a:before, .menu_area .navbar-nav > li:not(.menu-cart) > a:after {
+	#background: #FDAD13;
+	background: #006474;
+}
+
+.header_area .top_header.sticky-menu-add {
+	background: #ffffff !important;
+}
+
+.product-image-home {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 30px auto;
+}
+
+.vc-hoverbox-block.vc-hoverbox-front,
+.vc-hoverbox-block.vc-hoverbox-back {
+	width:260px !important;
+	height: 330px !important;
+}
+
+.social_media_grid{
+	width: 170px;
+	height: 170px;
+}
+
+.msg_box{
+	height: 50px;
+}
+
+.contact_msg_button{
+	background-color: #fdae13;
+	border: none;
+	
+}
+
+#wpcf7-f3063-p3061-o2 {
+	width: 100%;
+}
+
+.wpcf7-form input:not(.wpcf7-submit), .wpcf7-form textarea {
+	height: 50px;
+	border: none;
+	background: #F4F4F4;
+	padding-left: 25px;
+	font-family: "Arial";
+	font-size: 10px;
+	letter-spacing: 5px
+	width: 100% !important; 
+}
+
+.wpcf7-text{
+	width: 100%;
+}
+
+.wpcf7-form textarea {
+	height: 100px;
+	width:	100%;
+}
+
+.wpcf7-form .wpcf7-submit {
+background: url(https://s3.amazonaws.com/centra-public/content/uploads/2017/11/15110853/icon-1.png) repeat-x center center;
+	float: right;
+}
+
+.blueSignupButton {
+	margin: 0 !important;
+    position: absolute !important;
+    top: 90% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.vc_grid-container-wrapper{
+	width: 250px;
+	height: 110px;
+}
+
+.our_team_grid{
+	width: 250%;
+}
+
+.team-image {
+	width: 255px;
+	height: 255px;
+	margin-bottom: 20px; 
+}
+
+.team-image img {
+	width:100%;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+	background-color: black;
+}
+
+.header_area .navbar-wrapper {
+	background-color: white;
+}
+
+.connect_the_bridge_words{
+	font-size:40;
+	margin-top:78;
+}
+
+.header_area .top_header {
+ background-color: transparant;
+}
+
+.menu-item a {
+	color: black !important;
+}
+
+.sticky-menu-add .menu-item a {
+	color: black !important;
+}
+
+@media screen and (min-width: 992px)
+threed-main.css?ver=v1:990
+.menu_area .navbar-nav li .mobile-dropdown {
+	right: -10px;
+	color: #000000;
+}
+
+.menu_area .sub-menu, .menu_area .children {
+	background: #006474;
+}
+
+.menu_area .navbar-nav li .mobile-dropdown {
+	right: -10px;
+	color: #006474;
+	#display: none;
+}
+
+
+.threed-heading {
+	text-align:	center;
+	#color: #b5b5b4;	
+}
+
+.threed-subheading{
+	text-align:	center;
+	#color: #b5b5b4 !important;
+}
+
+.section_3_h2 {
+	text-align:	left !important;
+}
+
+.section_3_h4{
+	text-align:	left;
+}
+
+body.custom-background {
+	background-size: 100%;
+}
+
+.section_6_h2 .threed-heading {
+	color: #343434;
+	text-align: left;
+}
+
+.mobile-dropdown {
+	display: none;
+}
+
+
+.section-heading {
+	margin-bottom: 0px;
+}
+
+.sticky-menu-add .menu_area .navbar-nav li li > a {
+	color: white !important;
+}
+
+#.contact_msg_button {
+background: url(https://s3.amazonaws.com/centra-public/content/uploads/2017/11/15110853/icon-1.png) repeat-x center center;
+	background-color: #fdae13;
+	border: none;
+	color: white;	
+	margin-top: 5px;
+	border-radius: 5px;
+	font-size: 18px;
+	transition: all 0.25s ease;
+}
+
+#.contact_msg_button:hover {
+	background-color: #989898;
+	color: white;	
+}
+
+.contact_msg_button, .wpcf7-form .wpcf7-submit {
+    color: #555555;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.25s ease;
+    margin-bottom: 20px;
+    border: 1px solid #e2a539;
+    background: #f7daa7;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+}
+
+.contact_msg_button:hover, .wpcf7-form .wpcf7-submit:hover {
+    background-color: #989898;
+    color: white;
+    border: 1px solid #555555;
+}
+
+.upb_row_bg {
+	border: 1px solid transparent;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;	
+}
+
+.wpcf7-form input:not(.wpcf7-submit), .wpcf7-form textarea {
+	height: 50px;
+	border: none;
+	background: #f4f4f4;
+	padding-left: 25px;
+	font-family: "Roboto";
+	font-size: 13px;
+	letter-spacing: 5px width: 100% !important;
+}
+
+.wpcf7-form .wpcf7-submit {
+	font-family: roboto;
+	color: #ffffff;
+    margin-top: 5px;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.18s ease;
+    margin-bottom: 20px;
+    border: 1px solid #0f2b47;
+    background: #0f2b47;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;	
+	-webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    letter-spacing: 2px;
+   
+}
+
+.wpcf7-form .wpcf7-submit:hover {
+	background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #0f2b47;
+}
+
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern {
+    font-family: roboto;
+	color: #ffffff;
+    margin-top: 5px;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.18s ease;
+    margin-bottom: 20px;
+    border: 1px solid #0f2b47;
+    background: #0f2b47;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;	
+	-webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    letter-spacing: 2px;
+}
+
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #0f2b47;
+}
+
+.contact-form-wrapper .contact-form-control-button input[type='submit'] {
+	background-color: #ececec;
+	color: #565656;
+}
+
+.birthdate {
+	width: 100%;
+}
+
+.telephone {
+	width: 100%;
+}
+
+.zipcode {
+	width: 100%;	
+}
+
+#post-3959 {
+	margin-top: 50px;
+}
+
+#post-3959 .entry-title {
+	text-align: center;
+	color: #ffffff;
+}
+
+#post-3959 .entry-content {
+	background: #ffffff;
+	padding: 20px;
+	border-radius: 5px
+}
+
+#post-3959 .alert {
+	max-width: 500px;
+    margin: 10px auto;
+}
+
+#.section_1_header {
+	color: #ffffff;
+}
+
+#.section_2_header{
+	color: #ffffff;
+}
+
+.market_section_0_header {
+	color: #ffffff;
+}
+
+.market_section_1_header {
+	color: #ffffff;
+}
+
+.ctr_overview_banner_video_box_shadow {
+ content:"";
+    position:absolute;
+    width:100%;
+    bottom:1px;
+    z-index:-1;
+    #transform:scale(.5);
+    box-shadow: -7px 40px 120px 23px #000000;
+}
+
+.post-3959 .entry-title {
+	color: #565656 !important;
+}
+
+.ctuc-login-form {
+	margin-right:50px;
+}
+
+#post-3959 .container {
+	width: auto;
+}
+
+#post-3959 .text-center {
+	color: #ffffff !important;
+}
+
+.posted-on {
+	display: none;
+}
+
+
+.team-member-view .team-info h6 {
+	font-size: 13px;
+}
+.sub-menu li a {
+    color: #fff !important;
+}
+
+
+.vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_vc_row>.vc_row>.vc_vc_column>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_vc_row_inner>.vc_row>.vc_vc_column_inner>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_row>.vc_vc_column>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner, .vc_section.vc_section-has-fill, .vc_section.vc_section-has-fill+.vc_row-full-width+.vc_section, .vc_section.vc_section-has-fill+.vc_section .vc_column-inner {
+	padding-top: 0px !important;
+}
+
+.team-image {
+   margin-bottom: 0px !important;
+}
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 0px !important; 
+}
+
+.ult-ih-list-item{
+height: 100% !important; 
+width: 100% !important;  
+}
+
+.ult-ih-image-block{
+height: 100% !important; 
+width: 100% !important;
+}
+.ult-ih-item {
+height: 100% !important; 
+width: 100% !important;
+}
+.ult-ih-effect1 {
+height: 100% !important; 
+width: 100% !important;
+}
+.ult-ih-top_to_bottom {
+height: 100% !important; 
+width: 100% !important;
+}
+.ult-ih-square {
+height: 100% !important; 
+width: 100% !important;
+}
+.info-wrapper.ult-adjust-bottom-margin, .smile_icon_list_wrap.ult-adjust-bottom-margin, .uavc-list-icon-wrapper.ult-adjust-bottom-margin, .ubtn-ctn-center, .ubtn-ctn-left, .ubtn-ctn-right, .ubtn-img-container, .ult-banner-block.ult-adjust-bottom-margin, .ult-modal-input-wrapper.ult-adjust-bottom-margin, .ult_dual_button.ult-adjust-bottom-margin, .ultb3-box.ult-adjust-bottom-margin, .ultimate-call-to-action.ult-adjust-bottom-margin, .ultimate-google-trends.ult-adjust-bottom-margin, .ultimate-map-wrapper.ult-adjust-bottom-margin, .uvc-type-wrap.ult-adjust-bottom-margin, html .ult-ih-container.ult-adjust-bottom-margin, html .ult_exp_section_layer.ult-adjust-bottom-margin, html .ult_hotspot_container.ult-adjust-bottom-margin, html .ult_main_cl.ult-adjust-bottom-margin {
+    margin-bottom: 0px !important;
+}
+
+.cool_timeline h1.timeline-main-title {
+	display: none;
+}
+/* ===== centrauser plugin ===== */
+.tier-columns{
+color: #ffffff !important;
+}
+.table .tier-requirements ul li{
+color: #ffffff !important;
+}
+
+
+
+/* ============================= */
+
+
+/* == home page zoom icon ====== */
+.icon_1:hover img,
+.icon_2:hover img,
+.icon_3:hover img,
+.icon_4:hover img,
+.icon_5:hover img,
+.icon_6:hover img,
+.icon_7:hover img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transform: scale(.7);
+  -webkit-transform: scale(.7);
+  transform: scale(.7);
+  transition: all 0.3s;
+}
+/* ============================= */
+
+/* == home page zoom press ====== */
+.press_1:hover img,
+.press_2:hover img,
+.press_3:hover img,
+.press_4:hover img,
+.press_5:hover img,
+.press_6:hover img,
+.press_7:hover img,
+.press_8:hover img,
+.press_9:hover img,
+.press_10:hover img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transform: scale(.7);
+  -webkit-transform: scale(.7);
+  transform: scale(.7);
+  transition: all 0.3s;
+}
+/* ============================= */
+
+
+.wallet_login {
+	color: #565656;
+}
+
+.footer_hr {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	
+}
+
+.footer-bot {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+/* ==== poll comments hidden====== */
+
+.below-post-content {
+	display: none;
+}
+
+.post-footer {
+	display: none;
+}
+
+.nav-links {
+	display: none;
+}
+
+.author-box {
+	display: none;
+}
+
+.comments-area {
+	display: none;
+}
+
+.single-post .site-content {
+	padding-bottom:0px;
+}
+
+.site-content {
+	padding-bottom:0px;
+}
+/* ==== poll comments hidden====== */
+
+.careers {
+	display: unset;
+}
+
+.upb_row_bg {
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+#post-3959 .vc_btn3 { display: none; }
+
+.press_release .vc_grid-container-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.press_release .vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
+    color: #ffffff;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.18s ease;
+    margin-bottom: 20px;
+    border: 1px solid #00a3b2;
+    background: #00a3b2;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    letter-spacing: 2px;
+    box-shadow: 1px 8px 20px 0px #0000008c;
+}
+
+.press_release .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat:focus, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat:hover, .vc_btn3.vc_btn3-color-juicy-pink:focus, .vc_btn3.vc_btn3-color-juicy-pink:hover {
+    color: #565656;
+    background-color: #ececec;
+}
+
+/* ==== My card portal ====== */
+
+.h_iframe iframe {
+	width:100%; 
+	height:1000px;
+}
+
+.h_iframe {
+    height: 100%; 
+	width:100%;
+}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  ...
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
+
+@media (min-width: 268px) {
+  .modal-xl {
+    width: 80%;
+   max-width:1200px;
+  }
+}
+
+@media (max-width: 300px) {
+	.myFriend {
+		max-width: 100%;
+	}
+}
+	
+
+/* ==== My card portal ====== */
+
+@media only screen and (max-width:450px) {
+    #deyvis>.upb_row_bg  {
+        background-image: url("https://s3.amazonaws.com/centra-public/content/uploads/2018/02/16113634/header_mobile-view-min.jpg") !important;
+        height: 441px !important;
+        background-repeat: no-repeat !important;
+        border: 0px solid transparent; !important:
+    }
+    .home_icon_1 {
+        height:20px !important;
+        width:67px !important;
+    }
+    .home_icon_2 {
+        height:20px !important;
+        width:67px !important;
+    }
+}
+
+#deyvis>.upb_row_bg  {
+    border: 0px solid transparent; !important:
+}
+
+@media only screen and (max-width: 450px) {
+    #centra_card_logo_1>.upb_row_bg  {
+        background-image: url("https://s3.amazonaws.com/centra-public/content/uploads/2018/02/05180939/Card_mobile_page_header.jpg") !important;
+        height: 230px !important;
+        background-repeat: no-repeat !important;
+        border: 0px solid transparent; !important:
+    }
+}
+
+#centra_card_logo_1>.upb_row_bg  {
+    border: 0px solid transparent; !important:
+}
+
+.intl-tel-input {
+	display: block !important;
+}
+
+.commicationTerms> .wpcf7-list-item {
+	margin-left: 0px !important;
+}
+
+.commicationTerms> .wpcf7-list-item> input[type=checkbox] {
+	height: 14px !important;
+	margin-right: 10px !important;
+}		</style>
+<style id="tt-easy-google-font-styles" type="text/css">p { }
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+roboto_font { font-family: 'Roboto'; font-style: normal; font-weight: 100; }
+</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+</head>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-102973304-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="centra.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
+/*]]>*/</script>
+
+
+
+
+<body class="error404 wpb-js-composer js-comp-ver-5.4.2 vc_responsive">
+<div id="page" class="hfeed site">
+
+<div id="content" class="site-content container">
+<div class="row">
+<div class="errorPage-wrapper" style="margin-top: 35vh !important;">
+<div class="error-content">
+<div style="text-align:center;">
+<img src="https://s3.amazonaws.com/centra-public/content/uploads/2017/12/07144943/404-not-found.png" height="400" width="290">
+</div>
+</br>
+</br>
+</br>
+<h4></h4>
+
+<a href="https://centra.tech/" class="button-medium button-medium--red" style="back">Back to HOME</a>
+</div>
+</div>
+</div> 
+</div>
+</div>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js?ver=1520185254'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.4/sweetalert2.all.min.js?ver=1520185254'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/centra.tech\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/centra.tech\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/centra.tech\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_2f68ce3bd8a30c49fdefb68ec4aa7fab"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.2.1'></script>
+<script type='text/javascript' src='https://centra.tech/content/themes/threed/js/vendor/bootstrap.min.js?ver=v1'></script>
+<script type='text/javascript' src='https://centra.tech/content/plugins/js-composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.4.2'></script>
+<script type='text/javascript' src='https://centra.tech/content/themes/threed/js/owl.carousel.min.js?ver=v1'></script>
+<script type='text/javascript' src='https://centra.tech/content/themes/threed/js/vendor/waypoints.min.js?ver=v1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sitesettings = {"ajaxurl":"https:\/\/centra.tech\/wp\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://centra.tech/content/themes/threed/js/threed-main.js?ver=v1'></script>
+<script type='text/javascript' src='https://centra.tech/wp/wp-includes/js/wp-embed.min.js?ver=4.8.3'></script>
+
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-102973304-1');
+</script>
+</body>
+</html>
+

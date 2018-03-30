@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <title>WAX - Worldwide Asset eXchange</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <meta property="og:image" content="/images/articles/news-introducing-wax.jpg">
+    <meta property="og:description" content="WAX is a decentralized platform enabling anyone to operate virtual marketplaces with built-in security, infrastructure, and payment processing. From the founders of OPSkins, the world’s leading marketplace for online game assets, WAX serves the 400+ million players who already collect, buy and sell.">
+    <meta name="description" content="WAX | A decentralized platform that enables anyone to operate a fully functioning virtual marketplace.">
+
+    <link rel="shortcut icon" href="/images/favicon-32x32.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="WAX is a decentralized platform enabling anyone to operate virtual marketplaces with built-in security, infrastructure, and payment processing.">
+    <meta name="twitter:title" content="WAX - The Worldwide Asset eXchange - WAX">
+    <meta name="twitter:image" content="/images/articles/news-introducing-wax.jpg">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Muli:200,200i,400,400i,600,600i,800,800i', 'Lora:400,400i']
+        }
+      });
+    </script>
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/app.css?1519171466266" media="all" />
+
+    <link async rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+    integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+    crossorigin="anonymous">
+    <!-- or -->
+
+
+
+    <script async src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+    <script async src="https://cdn.rawgit.com/mrdoob/three.js/master/build/three.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112407475-1"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'UA-112407475-1');
+    </script>
+
+
+    <!-- BEGIN: tag from Arman -->
+    <script async type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-199409-440AS%20%2849%20B%29';</script>
+    <!-- END: tag from Arman -->
+
+  </head>
+  <body class="">
+
+
+    <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <div class="modal-content content-modal">
+          <div class="header-modal">
+            <h5 class="title-modal" id="exampleModalLabel">Contact</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div>
+          <form class="contact-form">
+
+            <label>Name</label>
+            <input name="full-name" />
+            <label>Email</label>
+            <input name="email-address" />
+            <label>What is your question about?</label>
+            <select name="bucket">
+              <option disabled selected value="">select a topic</option>
+              <option value="KYC">KYC</option>
+              <option value="Wallet Change">Wallet Change</option>
+              <option value="General Inquiry">General Inquiry</option>
+            </select>
+            <label>Comment</label>
+            <textarea name="message" type="textarea"></textarea>
+            <input type="submit" class="contact-submit" value="SUBMIT"/>
+          </form>
+        </div>
+
+        </div>
+
+      </div>
+    </div> -->
+
+    <script async type="text/JavaScript">
+    window.zESettings = {
+      webWidget: {
+        contactForm: {
+          attachments: false
+        }
+      }
+    };
+    </script>
+    <!-- Start of mcmxi Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="Contact Form",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="mcmxi.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
+    /*]]>*/</script>
+    <!-- End of mcmxi Zendesk Widget script -->
+
+
+
+<nav class="navbar navbar-expand-md navbar-bg fixed-top " id="mainNav">
+
+  <a class="navbar-brand js-scroll-trigger" href="/#page-top"><img src="/images/logos/logo-wax.svg?1519171466266" alt="WAX" width="152"/></a>
+
+  <div class="order-2 order-md-3">
+    <div class="d-flex flex-row order-2 order-md-3">
+
+      <div>
+        <a class="language-select nav-item nav-link dropdown-toggle orange-font" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          EN
+        </a>
+
+        <div class="dropdown-menu dropdown-menu-right pull-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/">English</a>
+          <a class="dropdown-item" href="/zh/">中文</a>
+          <a class="dropdown-item" href="/ko/">한국어</a>
+          <a class="dropdown-item" href="/ja/">日本語</a>
+          <a class="dropdown-item" href="/ru/">Русский</a>
+        </div>
+      </div>
+
+      <button class="nav-item nav-link navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/images/icon-menu.svg" alt="menu" />
+      </button>
+
+      <!-- <a class="button nav-cta" data-toggle="modal" data-target="#myModal">Contact</a> -->
+
+    </div>
+  </div>
+
+  <div class="navbar-collapse collapse order-3 order-md-2 top-menu" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/news">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="/#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://medium.com/wax-io/" target="_blank" rel="noopener" >Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/waxio" target="_blank" rel="noopener" >Github</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://t.me/wax_io" target="_blank" rel="noopener" >Community</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+
+<div class="rain" id="rain"></div>
+<section class="hero background blue-back green-divide gray-white" id="page-top">
+
+  <div class="container dark">
+    <div class="row no-gutters">
+      <div class="col-12 col-lg-8 mx-auto center">
+        <div>
+          <h1 class="">
+            Worldwide Asset Exchange
+          </h1>
+          <h2>Safe. Secure. Fast. </h2>
+          <h3>Global Decentralized Marketplace for Virtual Assets </h3>
+
+
+
+<div id="subscribe-cont" class="subscribe-cont">
+  <form action="https://norrisservicesllc.createsend.com/t/j/s/etikdi/" method="post" id="subForm">
+    <input placeholder="Enter your email for updates" id="fieldEmail" autofocus name="cm-etikdi-etikdi" type="email" required></input>
+    <button type="submit" class="button solid-orange">Sign Up</button>
+  </form>
+  <div class="submit-message" id="subscribe-message">
+  </div>
+  <form class="left hidden" action="https://norrisservicesllc.createsend.com/t/j/s/etikdi/" method="post" id="subForm2">
+      <p>
+          <label for="fieldName">First and Last Name</label><br />
+          <input id="fieldName" name="cm-name" type="text" />
+      </p>
+      <input hidden id="fieldEmail2" name="cm-etikdi-etikdi" type="email" />
+      <div id="multiselects" class="multiselects">
+
+        <p>
+          <label for="fieldjrulkrl">What questions would you like the WAX newsletter to answer?</label><br />
+          <input id="fieldjrulkrl" name="cm-f-jruluyy" type="text" />
+        </p>
+
+        <p>
+          <label for="fieldjrulkrr">What topics would you like the WAX newsletter to cover?</label><br />
+          <input id="fieldjrulkrr" name="cm-f-jruluyj" type="text" />
+        </p>
+
+      </div>
+      <p class="center">
+          <button class="button solid-orange" type="submit">Submit</button>
+      </p>
+  </form>
+
+</div>
+
+        </div>
+      </div>
+      <div class="col-12 center from-opskins">
+        <span class="">
+        <a class="white" href="https://opskins.com/">From the Founders of   <img src="/images/logos/logo-opskins-white.png" alt="OPSkins" /></a>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="left-tubes"></div>
+    <div class="right-tubes"></div>
+
+    <div class="left-tube-1 tube">
+      <img async src="/images/sprites/left-tube-1.svg" alt="" />
+    </div>
+
+    <div class="left-tube-2 tube">
+      <img async src="/images/sprites/left-tube-2.svg" alt="" />
+    </div>
+
+    <div class="right-tube-1 tube">
+      <img async src="/images/sprites/right-tube-1.svg" alt="" />
+    </div>
+
+    <div class="right-tube-2 tube">
+      <img async src="/images/sprites/right-tube-2.svg" alt="" />
+    </div>
+
+    <div class="right-tube-3 tube">
+      <img async src="/images/sprites/right-tube-1.svg" alt="" />
+    </div>
+
+    <div class="right-tube-4 tube">
+      <img async src="/images/sprites/right-tube-2.svg" alt="" />
+    </div>
+
+    <div class="right-tube-5 tube">
+      <img async src="/images/sprites/right-tube-3.svg" alt="" />
+    </div>
+
+    <div class="right-tube-6 tube">
+      <img async src="/images/sprites/right-tube-4.svg" alt="" />
+    </div>
+
+	   <img src="/images/sprites/illustration.png?1519171466266" alt="WAX Hero Image" id="hero-image"/>
+     <div class="graph">
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+     </div>
+     <div class="shop">
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+     </div>
+     <div class="pie">
+       <svg width="100%" height="100%">
+        <circle r="30" cx="50%" cy="50%" shape-rendering="optimizeQuality"/>
+      </svg>
+     </div>
+     <img async src="/images/sprites/gem.png?1519171466266" class="gem" alt="" />
+     <div class="gem-11">
+       <img async src="/images/sprites/gem.png?1519171466266" id="gem-1" alt="" />
+     </div>
+     <div class="gem-21">
+       <img async src="/images/sprites/gem.png?1519171466266" id="gem-2" alt="" />
+     </div>
+     <div class="gem-31">
+       <img async src="/images/sprites/gem.png?1519171466266" id="gem-3" alt="" />
+     </div>
+     <img async src="/images/sprites/forcefield.png?1519171466266" class="field" alt="" />
+  </div>
+
+</section>
+
+<section class="telegram gray-back cornered--bottom">
+  <div class="container telegram-back">
+    <div class="row center">
+      <div class="col-lg-12">
+        <div>
+          <h3>Join the WAX Community</h3>
+          <p class="muted">Get in on the discussion with our 25,000+ Telegram subscribers</p>
+        </div>
+
+        <div class="telegram-buttons">
+          <a class="button mobile-stacked solid-orange small-full-width" href="https://t.me/waxtokenannoucements" target="_blank" rel="noopener" ><img class="button-icon" src="/images/icons/telegram-icon-white.svg" alt="Telegram"/> ANNOUNCEMENTS</a>
+          <a class="button mobile-stacked solid-orange small-full-width" href="https://t.me/wax_io" target="_blank" rel="noopener" ><img class="button-icon" src="/images/icons/telegram-icon-white.svg" alt="Telegram"/> DISCUSSION</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</section>
+
+<section class="featured-on medium">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row row-vertical-center">
+          <div class="col-12 col-lg-3 center">
+              <span>Featured On:</span>
+          </div>
+          <div class="col-7 col-sm-6 col-lg-2 center">
+                 <img class="scale-with-grid" src="/images/logos/logo-bloomberg.png" alt="Bloomberg" width="100%">
+          </div>
+          <div class="col-7 col-sm-6 col-lg-2 center">
+                 <img class="scale-with-grid" src="/images/logos/logo-reuters.png" alt="Reuters" width="100%">
+          </div>
+          <div class="col-7 col-sm-6 col-lg-2 center">
+                 <img src="/images/logos/logo-ibtimes.png" width="100%" alt="IBGTimes" />
+          </div>
+          <div class="col-7 col-sm-6 col-lg-2 center">
+                 <img src="/images/logos/logo-cointelegraph.png" width="100%" alt="Coin Telegraph" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="what-is-wax diag-gray" id="about">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-md-10 col-lg-6 order-2 order-lg-1 graphic">
+        <img id="what-is-wax" src="/images/what-is-wax.png" alt="What is WAX, Image" width="80%" class="transparent"/>
+      </div>
+      <div class="col-11 col-md-9 col-lg-6 order-1 order-lg-2">
+        <h1 class="mobile-center">What is WAX?</h1>
+        <p class="lead-paragraph mobile-center">
+          WAX is a decentralized platform that enables anyone to operate a fully functioning virtual marketplace with zero investment in security, infrastructure, or payment processing. Developed by the founders of OPSkins, the world’s leading marketplace for online video game assets, WAX is designed to serve the 400+ million online players who already collect, buy and sell in-game items.
+        </p>
+        <h3>Wax Tokens</h3>
+        <p class=" mobile-center">
+          Harnessing the power of blockchain technology, WAX Tokens are utility tokens that allow virtual goods - and not just for use in video games - to easily be tokenized and exchanged for cryptocurrency. The smart contract underlying the transaction acts as the mechanism that permits trustless trading between buyers and sellers. The WAX Platform will allow millions of traders to create their own virtual stores on one decentralized platform, providing instant payments, security, and trust services that will bring millions of new participants into a growing ecosystem.
+        </p>
+        <a class="button solid-orange small-full-width"  data-toggle="modal" data-target="#modal-video"><img class="button-icon" src="/images/icons/play-icon.svg" alt="Play Video"/> WATCH VIDEO </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="modal fade modal-video" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button id="video-close" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-video">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe title="WAX Introduction Video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/k2efWaUvDC0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="blue-gradient dark quote edge--top--reverse cornered--bottom "  id="particles-js-2">
+  <div class="container particles">
+    <div class="row">
+      <div class="col-11 col-lg-8 mx-auto mobile-center">
+        <blockquote class="transparent" id="quotation">
+          WAX is the onramp for mass market cryptocurrency adoption.
+        </blockquote>
+        <cite class="transparent" id="cite">
+          - William Quigley<br>CEO, WAX
+        </cite>
+      </div>
+      <div class="col-12 col-lg-8 mx-auto center">
+        <div class="podcast">
+          <h3>Listen to William Quigley&#39;s Cryptocurrency Podcast</h3>
+          <iframe title="William Quigleys Podcast" src="https://www.podbean.com/media/player/kserb-89bb5d&?from=site&skin=1&fonts=Helvetica&auto=0&download=0&share=1&btn-skin=105" height="100" width="100%" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ecosystem">
+
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 mx-auto">
+
+        <h1 class="center transparent" id="ecosystem-title">The WAX Ecosystem</h1>
+
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <h2>
+              WAX is designed to serve the 400+ million online players who already collect, buy and sell in-game digital items.
+            </h2>
+          </div>
+        </div>
+
+        <div class="row carousel-container">
+          <div class="col-12 col-md-5 mx-auto radial-grey selectors selector-class">
+
+
+            <div class="active" data-tab="1">
+
+              Store Owner
+            </div>
+
+
+            <div data-tab="2">
+
+              Guild
+            </div>
+
+
+            <div data-tab="3">
+
+              Transfer Agent
+            </div>
+
+
+            <div data-tab="4">
+
+              Appraiser
+            </div>
+
+
+            <div data-tab="5">
+
+              Asset Creator
+            </div>
+
+
+          </div>
+          <div class="col-12 col-md-7 mx-auto">
+            <div id="wax-explanation-content" class="content">
+
+
+              <div class="active" data-tab="1">
+
+                <noscript data-src="/images/opportunities/ops-store-owner.png" alt="Store Owner">
+                <img src="/images/opportunities/ops-store-owner.png" alt="Store Owner" data-src="">
+                </noscript>
+                <h3>Operate Your own Virtual Item Marketplace</h3>
+                <p>WAX enables a new generation of virtual asset traders, similar to how earlier online marketplaces enabled entrepreneurs to become power sellers.</p>
+              </div>
+
+
+              <div data-tab="2">
+
+                <noscript data-src="/images/opportunities/ops-guild.png" alt="Guild">
+                <img src="/images/opportunities/ops-guild.png" alt="Guild" data-src="">
+                </noscript>
+                <h3>Oversee the Markets for Your Favorite Games</h3>
+                <p>Start or join Guilds that self-govern and oversee transactions specifically for your favorite game or game server, and receive rewards for your involvement.</p>
+              </div>
+
+
+              <div data-tab="3">
+
+                <noscript data-src="/images/opportunities/ops-transfer-agent.png" alt="Transfer Agent">
+                <img src="/images/opportunities/ops-transfer-agent.png" alt="Transfer Agent" data-src="">
+                </noscript>
+                <h3>Ensure Transactions are Valid and Secure</h3>
+                <p>By reviewing and facilitating transactions, WAX members can earn significant fees.  With more fees earned, there will be more tokens available for using and accessing the entire ecosystem.</p>
+              </div>
+
+
+              <div data-tab="4">
+
+                <noscript data-src="/images/opportunities/ops-appraiser.png" alt="Appraiser">
+                <img src="/images/opportunities/ops-appraiser.png" alt="Appraiser" data-src="">
+                </noscript>
+                <h3>Get Rewarded for Your Marketplace Expertise</h3>
+                <p>WAX members familiar with assets and pricing for their favorite games can offer appraisal services to marketplaces in need of valuation and verification services.</p>
+              </div>
+
+
+              <div data-tab="5">
+
+                <noscript data-src="/images/opportunities/ops-asset-creator.png" alt="Asset Creator">
+                <img src="/images/opportunities/ops-asset-creator.png" alt="Asset Creator" data-src="">
+                </noscript>
+                <h3>Make and Sell Your Own Items</h3>
+                <p>Entrepreneurial designers and makers will be able to create virtual assets and offer them for sale in their individual marketplaces.</p>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-12 col-md-7 mx-auto carousel selector-class">
+            <div class="active" data-tab="1">
+            </div>
+            <div data-tab="2">
+            </div>
+            <div data-tab="3">
+            </div>
+            <div data-tab="4">
+            </div>
+            <div data-tab="5">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-md-9 mx-auto center">
+            <h3 class="">The WAX Blockchain</h3>
+            <p>
+              The WAX Platform is a global virtual item repository, accessible to anyone, that provides a complete catalog of all items available for sale in real time. This provides users of WAX with  access to a worldwide market, with all the advantages of blockchain technology.
+            </p>
+          </div>
+          <div class="blockchain-container">
+            <div class="blockchain-img">
+              <span>TRANSACTION</span>
+              <span>GUILD VERIFICATION</span>
+              <span>NEW DATA BLOCK</span>
+              <span>ADD TO BLOCKCHAIN</span>
+              <noscript data-src="/images/blockchain.png" alt="Blockchain pictograph">
+              <img src="/images/blockchain.png" alt="Blockchain pictograph" width="100%" data-src="">
+              </noscript>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="partners">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+
+        <div class="row row-vertical-center">
+          <div class="col-12 col-lg-6 small-center">
+            <h3>Featured Partners</h3>
+            <p class="muted">
+              WAX’s Partners help to make our ecosystem feature-rich, secure, and optimized for all users. Like all of us at WAX, our Partners love working to decentralize and democratize the world through groundbreaking technology, empowering our users to benefit proportionally to their contributions. If your organization shares those values, we&#39;d love to hear from you.
+            </p>
+          </div>
+          <div class="col-12 col-lg-5 partner-scroll">
+            <div class="photobanner">
+              <a class="bancor first"  href="https://www.bancor.network/" target="_blank" rel="noopener">
+
+                 <noscript data-src="/images/logos/logo-bancor.svg" alt="Bancor" width="45%">
+                 <img src="/images/logos/logo-bancor.svg" alt="Bancor" width="45%"/>
+                 </noscript>
+              </a>
+              <a  href="https://jaxx.io/" target="_blank" rel="noopener">
+
+                 <noscript data-src="/images/logos/logo-jaxx.svg" width="30%" alt="Jaxx">
+                 <img src="/images/logos/logo-jaxx.svg" width="30%" alt="Jaxx"/>
+                 </noscript>
+              </a>
+              <a  href="https://www.saltlending.com/" target="_blank" rel="noopener">
+
+                 <noscript data-src="/images/logos/logo-salt.svg" width="35%" alt="SALT">
+                 <img src="/images/logos/logo-salt.svg" width="35%" alt="SALT"/>
+                 </noscript>
+              </a>
+              <a  href="https://kyber.network/" target="_blank" rel="noopener">
+
+                 <noscript data-src="/images/logos/logo-kyber.svg" alt="KyberNetworks" width="45%">
+                 <img src="/images/logos/logo-kyber.svg" alt="KyberNetworks" width="45%" />
+                 </noscript>
+              </a>
+              <a  href="https://www.robotcache.com/" target="_blank" rel="noopener">
+
+                 <noscript data-src="/images/logos/logo-robot-cache.svg" alt="Robot Cache" width="45%">
+                 <img src="/images/logos/logo-robot-cache.svg" alt="Robot Cache" width="45%" />
+                 </noscript>
+              </a>
+              <a class="bancor"  href="https://www.bancor.network/" target="_blank" rel="noopener">
+
+                 <noscript data-src="/images/logos/logo-bancor.svg" alt="Bancor" width="45%">
+                 <img src="/images/logos/logo-bancor.svg" alt="Bancor" width="45%" />
+                 </noscript>
+              </a>
+              <a  href="https://jaxx.io/" target="_blank" rel="noopener">
+                 <img src="/images/logos/logo-jaxx.svg" width="30%" alt="Jaxx" />
+                 <noscript data-src="" alt="">
+                 <img src="" alt=""/>
+                 </noscript>
+              </a>
+              <a  href="https://www.saltlending.com/" target="_blank" rel="noopener">
+
+                 <noscript data-src="/images/logos/logo-salt.svg" width="35%" alt="SALT">
+                 <img src="/images/logos/logo-salt.svg" width="35%" alt="SALT" />
+                 </noscript>
+              </a>
+              <a  href="https://kyber.network/" target="_blank" rel="noopener">
+
+                 <noscript data-src="/images/logos/logo-kyber.svg" alt="KyberNetworks" width="45%">
+                 <img src="/images/logos/logo-kyber.svg" alt="KyberNetworks" width="45%" />
+                 </noscript>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blue-back dark founders cornered--both--flip ">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 mx-auto">
+        <h1 class="center">Management</h1>
+        <div class="row">
+
+
+          <div itemscope itemtype="http://schema.org/Person" class="col-8 col-sm-6 col-lg-3 portrait caps">
+            <img itemprop="image" src="/images/profiles/william.png?1519171466266" alt="William Quigley Photo">
+            <div>
+              <div itemprop="name" class="name">William Quigley</div>
+              <div itemprop="jobTitle" class="weak">CEO, WAX</div>
+              <div>
+
+                <a href="https://everipedia.org/wiki/williamq/" target="_blank" rel="noopener" ><img src="/images/icons/icon-founder-everipedia.svg" alt="everpedia"/></a>
+
+
+
+                <a href="https://twitter.com/quigleyreport" target="_blank" rel="noopener" ><img src="/images/icons/icon-founder-twitter.svg" alt="twitter"/></a>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div itemscope itemtype="http://schema.org/Person" class="col-8 col-sm-6 col-lg-3 portrait caps">
+            <img itemprop="image" src="/images/profiles/john.png?1519171466266" alt="John Brechisci, Jr. Photo">
+            <div>
+              <div itemprop="name" class="name">John Brechisci, Jr.</div>
+              <div itemprop="jobTitle" class="weak">Lead Designer, WAX</div>
+              <div>
+
+                <a href="https://everipedia.org/wiki/john-brechisci-jr/" target="_blank" rel="noopener" ><img src="/images/icons/icon-founder-everipedia.svg" alt="everpedia"/></a>
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div itemscope itemtype="http://schema.org/Person" class="col-8 col-sm-6 col-lg-3 portrait caps">
+            <img itemprop="image" src="/images/profiles/jon.png?1519171466266" alt="Jonathan Yantis Photo">
+            <div>
+              <div itemprop="name" class="name">Jonathan Yantis</div>
+              <div itemprop="jobTitle" class="weak">COO, WAX</div>
+              <div>
+
+                <a href="https://everipedia.org/wiki/jonathan-yantis/" target="_blank" rel="noopener" ><img src="/images/icons/icon-founder-everipedia.svg" alt="everpedia"/></a>
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div itemscope itemtype="http://schema.org/Person" class="col-8 col-sm-6 col-lg-3 portrait caps">
+            <img itemprop="image" src="/images/profiles/malcom.png?1519171466266" alt="Malcolm CasSelle Photo">
+            <div>
+              <div itemprop="name" class="name">Malcolm CasSelle</div>
+              <div itemprop="jobTitle" class="weak">President, WAX</div>
+              <div>
+
+                <a href="https://everipedia.org/wiki/Malcolm_CasSelle/" target="_blank" rel="noopener" ><img src="/images/icons/icon-founder-everipedia.svg" alt="everpedia"/></a>
+
+
+
+                <a href="https://twitter.com/MalcolmCasSelle" target="_blank" rel="noopener" ><img src="/images/icons/icon-founder-twitter.svg" alt="twitter"/></a>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="events globe-backdrop" id="events">
+  <canvas id="globe"></canvas>
+  <div class="container  ">
+    <div class="row">
+      <div class="col-sm-12 mx-auto" >
+        <h1 class="center">Find WAX At These Events</h1>
+        <div class="row">
+
+
+
+          <div itemscope itemtype ="http://schema.org/Event" class="col-lg-6 mx-auto" id="card-collection-1">
+
+            <div class="card transparent">
+              <h3><a href=" https://www.comparably.com/techfair/" target="_blank" rel="noopener" itemprop="name">TechFair Los Angeles</a></h3>
+              <span>March 8, 2018 - Los Angeles, California </span>
+            </div>
+
+
+
+
+
+            <div class="card transparent">
+              <h3><a href="http://www.gdconf.com/" target="_blank" rel="noopener" itemprop="name">GDC (Game Developers Conference)</a></h3>
+              <span>March  19 - 23, 2018 - San Francisco, CA </span>
+            </div>
+
+          </div>
+
+
+
+
+
+          <div itemscope itemtype ="http://schema.org/Event" class="col-lg-6 mx-auto" id="card-collection-2">
+
+            <div class="card transparent">
+              <h3><a href="https://www.meetup.com/Silicon-Valley-FinTech-Meetup/events/247650883/?_cookie-check=kxuJEjSyr3AImbqF" target="_blank" rel="noopener" itemprop="name">ICO Funding versus Venture Capital Funding</a></h3>
+              <span>March  20, 2018 - Palo Alto, CA </span>
+            </div>
+
+
+
+
+
+            <div class="card transparent">
+              <h3><a href="https://cryptoworldco.com/" target="_blank" rel="noopener" itemprop="name">Wall Street and the Internet of Money</a></h3>
+              <span>March  22, 2018 - NYC </span>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="background dark blue-back green-divide charcoal whitepaper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 ms-auto">
+        <h1 class="center">Docs</h1>
+      </div>
+      <div class="col-8 col-sm-6 col-lg-6 mx-auto">
+        <div class="center">
+          <a href="https://blog.zeppelin.solutions/wax-token-audit-e072e580407e" target="_blank" rel="noopener">
+            <noscript data-src="/images/wax-smart-contract.png" class="border-white" alt="Code Audit">
+            <img class="border-white" src="/images/wax-smart-contract.png" alt="Code Audit"/>
+            </noscript>
+          </a>
+        </div>
+        <div class="button-row center"><a class="button solid-orange" href="https://blog.zeppelin.solutions/wax-token-audit-e072e580407e" target="_blank" rel="noopener">View Audit Report</a></div>
+      </div>
+      <div itemscope itemtype="http://schema.org/DigitalDocument" class="col-8 col-sm-6 col-lg-6 mx-auto">
+        <div class="whitepaper-image center" >
+          <a href="/documents/WAX_White_Paper.pdf?1519171466266" target="_blank" rel="noopener">
+            <noscript data-src="/images/whitep.jpg" class="border-white" alt="White Paper">
+            <img class="border-white" src="/images/whitep.jpg" alt="White Paper"/>
+            </noscript>
+          </a>
+        </div>
+        <div class="button-row center"><a class="button solid-orange" href="/documents/WAX_White_Paper.pdf?1519171466266" target="_blank" rel="noopener">View White Paper</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="footer  ">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 center">
+            <ul class="social">
+              <li class="social-logo"><a href="/"><img src="/images/logos/logo-wax.svg?1519171466266" alt="WAX" /></a></li>
+              <li><a href="/news">News</a></li>
+              <li><a href="/#about">About</a></li>
+              <li><a href="https://medium.com/wax-io" target="_blank" rel="noopener" >Blog</a></li>
+              <li><a href="https://github.com/waxio" target="_blank" rel="noopener" >Github</a></li>
+              <li><a href="https://t.me/wax_io" target="_blank" rel="noopener" >Community</a></li>
+              <li><a href="/tos">Terms</a></li>
+              <li><a href="/privacy">Privacy</a></li>
+              <li><a href="/press.html">Press</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-12 center">
+            <ul class="social icons">
+              <li><a href="https://t.me/waxtokenannoucements" target="_blank" rel="noopener" ><img src="/images/social/icon-sm-telegram.svg" alt="icon-telegram"></a></li>
+              <li><a href="https://t.me/wax_io" target="_blank" rel="noopener" ><img src="/images/social/icon-telegram-discuss.png" alt="icon-telegram"></a></li>
+              <li><a href="https://www.facebook.com/WAX.io.Community/" target="_blank" rel="noopener" ><img src="/images/social/icon-sm-facebook.svg" alt="icon-facebook"></a></li>
+              <li><a href="https://twitter.com/WAX_io" target="_blank" rel="noopener" ><img src="/images/social/icon-sm-twitter.svg" alt="icon-twitter"></a></li>
+
+              <li><a href="https://www.reddit.com/r/WAX_io/" target="_blank" rel="noopener" ><img src="/images/social/icon-sm-reddit.svg" alt="icon-reddit"></a></li>
+              <li><a href="https://github.com/waxio" target="_blank" rel="noopener" ><img src="/images/social/icon-github-orange@2x.png" alt="icon-github"></a></li>
+              <li><a href="https://medium.com/wax-io/" target="_blank" rel="noopener" ><img src="/images/social/icon-sm-medium.svg" alt="icon-medium"></a></li>
+            </ul>
+          </div>
+          <div class="copyright col-sm-12 center">
+            © 2018 WAX, Worldwide Asset eXchange. All rights reserved.
+          </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="/js/app.js?1519171466266"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    </body>
+  </html>

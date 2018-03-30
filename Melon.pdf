@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Coindash</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href="https://coindash.io/favicon.ico">
+<link rel="icon" type="image/png" href="https://coindash.io/favicon.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://coindash.io/favicon-2x.png" sizes="32x32">
+<meta name="description" content="Coindash is your tool to manage, track, analyse, and get a birds eye view of your crypto assets.">
+<meta property="og:title" content="Coindash - an operating system for crypto assets">
+<meta property="og:description" content="Coindash is your tool to manage, track, analyse, and get a birds eye view of your crypto assets.">
+<meta property="og:image" content="images/og image.png">
+<script src="script/script.js"></script>
+<link href="css/css.css" rel="stylesheet" />
+
+<script>
+
+        (function (w, d, s, l, i) {
+
+            w[l] = w[l] || []; w[l].push({
+
+                'gtm.start':
+
+                new Date().getTime(), event: 'gtm.js'
+
+            }); var f = d.getElementsByTagName(s)[0],
+
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+
+        })(window, document, 'script', 'dataLayer', 'GTM-K37X2XH');</script>
+
+</head>
+<body>
+
+<noscript>
+
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K37X2XH" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+
+    </noscript>
+
+<div id="rotate">
+<img src="images/icn_rotate_screen.svg" style="padding-top: 50px;z-index:101" />
+</div>
+<div id="all">
+<div id="allCenter">
+<img src="images/qr_wechat.png" /><br />
+<img onclick="closeWeChat()" src="images/icn_close.svg" style="cursor:pointer" /><br /><br />
+</div>
+</div>
+<div class="logoDiv">
+<img src="images/logo.svg" id="logoPic" />
+</div>
+<div id="mainAreaStage1">
+<span id="q1">Q1 2018</span>
+<br />
+<span id="commingSoon">COMING SOON</span>
+</div>
+<div id="mainAreaStage2">
+<table id="tblTime">
+<tr>
+<td>
+<span class="timeTxt" id="hours">00</span><br />
+<span class="timeHeader">HR</span>
+</td>
+<td>
+<span class="timeTxt" id="min">00</span><br />
+<span class="timeHeader">MIN</span>
+</td>
+<td>
+<span class="timeTxt" style="color:#3454d1" id="sec">00</span><br />
+<span class="timeHeader">SEC</span>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainAreaStage3">
+<div id="movieDiv" style="width:80%;background-color:#00BBFF">
+<script src="https://fast.wistia.com/embed/medias/l9r4gsq2i0.jsonp" async></script>
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+<span class="wistia_embed wistia_async_l9r4gsq2i0 popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline">
+<a href="#" style="text-decoration:none;">
+<img src="images/icn_play.svg" style="width: 20%;padding-top: 10%;" /><br />
+<span style="font-family: Avenir-Black;font-size: 17px;color: #FFFFFF;position: relative;top: 8px;">Play Video</span>
+</a>
+</span>
+</div>
+</div>
+</div>
+<div id="newBtnDiv">
+<img class="line" id="line1Stage3" src="images/deco_line.svg" style="float:left;" />
+<div class="newBtn" onclick="window.open('https://blox.io','_blank');">
+<table style="width: 100%;" class="tblMobile">
+<tr>
+<td class="tdMobile">Learn More about Blox.io</td>
+<td><img style="position: relative;top: 4px;" src="images/arrow_foward.svg" /></td>
+</tr>
+</table>
+</div>
+<img class="line" id="line2Stage3" src="images/deco_line.svg" style="float:right;" />
+</div>
+</div>
+<div id="allBtns">
+<span class="learnMore">Learn More</span>
+<img class="line" id="line1" src="images/deco_line.svg" style="float:left;" />
+<img src="images/icn_fb_desk_default.svg" id="fbICON" class="smallIcon" onclick="window.open('https://www.facebook.com/coindash.io','_blank');" onmouseover="hover(this);" onmouseout="unhover(this);" />
+<img src="images/icn_twitter_desk_default.svg" id="twitterICON" class="smallIcon" onclick="window.open('https://twitter.com/coindashio','_blank');" onmouseover="hover(this);" onmouseout="unhover(this);" />
+<img src="images/icn_telegram_desk_default.svg" id="teleICON" class="smallIcon2" style="cursor:pointer;" onclick="window.open('https://t.me/CoinDashteam','_blank');" onmouseover="hover(this);" onmouseout="unhover(this);" />
+<img src="images/icn_wechat_desk_default.svg" id="wechatICON" onclick="openWeChat()" class="smallIcon" onmouseover="hover(this);" onmouseout="unhover(this);" />
+<img src="images/icn_reddit_desk_default.svg" id="redditICON" class="smallIcon" onclick="window.open('https://www.reddit.com/r/CoinDash/','_blank');" onmouseover="hover(this);" onmouseout="unhover(this);" />
+<img class="line" id="line2" src="images/deco_line.svg" style="float:right;" />
+</div>
+<img id="mainPic" src="" srcset="" />
+<img id="mainBackgroung" src="images/bg.svg" />
+<div id="downStrip"></div>
+<div id="copyRightsDiv">
+<div id="copy">
+Into The Future of Trading<br />
+Copyright © 2018 CoinDash
+</div>
+</div>
+</body>
+</html>
