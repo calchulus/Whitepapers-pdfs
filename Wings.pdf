@@ -1,0 +1,30 @@
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.    
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <!-- Content Copyright Carnegie Mellon University - Software Engineering Inst. -->
+			
+			
+<!--turn on native CF protection xss--->
+
+				<script type="text/javascript">
+					function loadXMLDoc(){
+						var xmlhttp;
+						if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+						  xmlhttp=new XMLHttpRequest();
+
+						}else{// code for IE6, IE5
+						  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+						}
+						xmlhttp.onreadystatechange=function(){
+						  if (xmlhttp.readyState==4 && xmlhttp.status==200){	
+							document.write(xmlhttp.responseText);
+						  }
+						}
+						xmlhttp.open("GET","/error/404.cfm?cs_forceReadMode=1",true);
+						xmlhttp.send();
+					}
+					loadXMLDoc();
+				</script>
+
+
+				
+                          
+        </html>     

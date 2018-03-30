@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+    <title>
+                Paper | Zerocash 
+        </title>
+    <meta name="description" content="">
+    <meta name="author" content="The Zerocash Team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+        <link href="/media/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/media/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/media/css/style.css" rel="stylesheet">
+    <link href="/media/css/stickyfooter.css" rel="stylesheet">
+    <link href="/media/css/nav.css" rel="stylesheet">
+    <link href="/media/css/typography.css" rel="stylesheet">
+    
+        
+
+
+                
+        
+            <script>
+  var _gaq = [['_setAccount', 'UA-47912220-1'], ['_trackPageview']];
+  (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.src = '//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+  }(document, 'script'));
+</script>
+      </head>
+
+  <body class="paper">
+    
+    <div id="wrap"> <!-- Wrap for sticky footer -->
+
+            <div class="row-fluid">
+                <div class="span7 offset3">  
+
+                      
+                    <div class="navbar">
+<a class="btn btn-navbar collapsed" data-align="left" data-toggle="collapse" data-target="#foobar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+                        
+                    <div class="nav-collapse" id="foobar">
+                                                <ul class="nav">
+<li><a href="index">Overview</a></li><li><a href="how_zerocash_works">Technology</a></li><li><a href="q_and_a">Q and A</a></li><li class="active"><a href="paper">Paper</a></li><li><a href="talks_and_media">Talks & Media</a></li><li><a href="about_us">About Us</a></li></ul>
+                    <div class="pull-right twitter-div" >
+<a href="https://twitter.com/zerocashproject" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @zerocashproject</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+
+                     </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid banner">
+                <div class="span6 offset3" />
+                                        <h1>
+                        <a class="brand" href="index.html">
+                            Zerocash
+                        </a> 
+                    </h1>
+                                    </div>
+            </div>
+            <div class="row-fluid"> <div class="span6 offset3" style="margin-top: 1em; background-color: #e0e0ff; box-shadow: 4px 4px 2px #808080; padding-left: 1em; padding-right: 1em;">
+The Zerocash protocol is being developed into a full-fledged digital currency, <a style="font-weight: bold;" href="http://z.cash/">Zcash</a>.
+</div> </div>            <div class="row-fluid">
+                <div class="span6 offset3">
+                            
+
+      <h2 id="paper">Paper</h2>
+<hr />
+<p>The Zerocash system is described and analyzed in detail in the paper below (and the references therein). For more accessible high-level reviews, see our <a href="talks_and_media">talks and media</a>.</p>
+<h3 id="zerocash-decentralized-anonymous-payments-from-bitcoin">Zerocash: Decentralized Anonymous Payments from Bitcoin</h3>
+<p><strong>Authors:</strong>
+Eli Ben-Sasson,
+Alessandro Chiesa,
+Christina Garman,
+Matthew Green,
+Ian Miers,
+Eran Tromer,
+and Madars Virza</p>
+<p><strong>Abstract:</strong></p>
+<p>Bitcoin is the first digital currency to see widespread adoption. While payments are conducted between pseudonyms, Bitcoin cannot offer strong privacy guarantees: payment transactions are recorded in a public decentralized ledger, from which much information can be deduced. Zerocoin (Miers et al., IEEE S&amp;P 2013) tackles some of these privacy issues by unlinking transactions from the payment's origin. Yet, it still reveals payments' destinations and amounts, and is limited in functionality.</p>
+<p>In this paper, we construct a full-fledged ledger-based digital currency with strong privacy guarantees. Our results leverage recent advances in zero-knowledge Succinct Non-interactive ARguments of Knowledge (zk-SNARKs).</p>
+<p>First, we formulate and construct decentralized anonymous payment schemes (DAP schemes). A DAP scheme enables users to directly pay each other privately: the corresponding transaction hides the payment's origin, destination, and transferred amount. We provide formal definitions and proofs of the construction's security.</p>
+<p>Second, we build Zerocash, a practical instantiation of our DAP scheme construction. In Zerocash, transactions are less than 1 kB and take under 6 ms to verify --- orders of magnitude more efficient than the less-anonymous Zerocoin and competitive with plain Bitcoin.</p>
+<p><strong>Publication info:</strong></p>
+<ul>
+<li>Eli Ben-Sasson, Alessandro Chiesa, Christina Garman, Matthew Green, Ian Miers, Eran Tromer, Madars Virza, <em>Zerocash: Decentralized Anonymous Payments from Bitcoin</em>, <a href="http://www.ieee-security.org/TC/SP2014/">proceedings of the IEEE Symposium on Security &amp; Privacy (Oakland) 2014</a>, 459-474, IEEE, 2014</li>
+</ul>
+<p><strong>Files:</strong> </p>
+<ul>
+<li><a href="media/pdf/zerocash-oakland2014.pdf">PDF of conference version</a> (16 pages)</li>
+<li><a href="media/pdf/zerocash-extended-20140518.pdf">PDF of extended version</a> (56 pages, subsuming the above and including additional details and updated data)</li>
+</ul>
+
+                </div>
+            </div>
+        <div id="push"></div> <!-- for sticky footer-->
+    </div> <!-- / sticky footer wrap -->
+
+    <div id ="footer" class="row-fluid footer">
+        <div class="span6 offset3">
+                <!--
+        <p>Created by <a href="">The Zerocash Team</a> <a href="https://twitter.com/">@</a></p>
+        -->
+        
+         </div>
+    </div>
+    
+        
+                    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>    
+    <script>window.jQuery || document.write('<script src="/media/js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
+        <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+            
+        
+
+    <!--[if lt IE 7 ]>
+      <script src="/media/js/libs/dd_belatedpng.js"></script>
+      <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+    <![endif]-->
+
+
+
+      </body>
+</html>
